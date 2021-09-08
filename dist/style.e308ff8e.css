@@ -1,0 +1,170 @@
+/* || GENERAL STYLES */
+body {
+  margin: 0;
+  padding: 0;
+  background: #f2f2f2;
+  padding-top: 48px;
+}
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+button {
+  height: 58px;
+  width: 193px;
+  border-radius: 29px;
+  border: 0;
+}
+button p,
+span {
+  font-weight: 900;
+}
+button[name="button"] p {
+  color: #fff;
+}
+
+/* ||TYPOGRAPHY */
+html {
+  text-align: center;
+  font-size: 10px;
+  font-family: "Red Hat Display", sans-serif;
+  color: #28283d;
+}
+h1 {
+  font-weight: 900;
+  font-size: 4rem;
+  line-height: 4.4rem;
+}
+h2 {
+  font-weight: 900;
+  font-size: 3.2rem;
+  line-height: 3.6rem;
+}
+h3 {
+  font-weight: 900;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  letter-spacing: 0.4rem;
+  color: #4d96a9;
+  text-transform: uppercase;
+}
+p {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: #87879d;
+  margin: 0;
+}
+
+/* ||Utilities */
+.page-number-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.vertical-line {
+  height: 84px;
+  width: 0;
+  border-left: 1px solid #87879d;
+  opacity: 0.25;
+}
+.page-number {
+  background: #fafafa;
+  border: 1px solid rgba(135, 135, 157, 0.25);
+  width: 56px;
+}
+
+/*|| heading */
+.hero-image {
+  display: inline-block;
+  margin-left: -20px;
+  margin-top: 54px;
+  margin-bottom: 48px;
+  width: 414px;
+  height: 153px;
+  background: url("/image-hero.f3fc1724.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.headline h1 {
+  margin: 0 auto;
+}
+.headline > p {
+  margin: 24px auto 32px;
+  width: 90%;
+}
+.headline-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.headline-buttons .download {
+  background: #4d96a9;
+  margin-bottom: 16px;
+}
+.headline-buttons .download span {
+  color: #8fe3f9;
+}
+.headline-buttons .what {
+  width: 139px;
+  background: #855fb1;
+}
+
+/* ||Main */
+.main {
+  padding: 64px 24px;
+}
+.pictures-gallery {
+  padding: 64px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 25px;
+  row-gap: 24px;
+}
+.pictures-gallery img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.benefits h2 {
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+
+/* ||Footer */
+.footer {
+  margin-top: 176px;
+  background-image: url("/image-footer.b654a21e.jpg");
+  background-blend-mode: saturation;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.call-to-action {
+  padding: 92px 24px 72px;
+  background-color: rgba(77, 150, 168, 0.9);
+}
+.call-to-action p,
+.call-to-action h2 {
+  color: #fff;
+}
+.call-to-action .download span {
+  color: #d9b8ff;
+}
+.call-to-action .download {
+  background: #855fb1;
+}
+.call-to-action > p {
+  margin: 24px auto 32px;
+  width: 85%;
+}
+.footer .page-number-wrapper {
+  position: absolute;
+  left: calc(50% - 28px);
+  bottom: calc(100% - 28px);
+}
+
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
