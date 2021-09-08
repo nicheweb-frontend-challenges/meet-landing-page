@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./assets\\tablet\\image-hero.png":[["image-hero.f3fc1724.png","assets/tablet/image-hero.png"],"assets/tablet/image-hero.png"],"./assets\\mobile\\image-footer.jpg":[["image-footer.b654a21e.jpg","assets/mobile/image-footer.jpg"],"assets/mobile/image-footer.jpg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./assets\\tablet\\image-hero.png":[["image-hero.f3fc1724.png","assets/tablet/image-hero.png"],"assets/tablet/image-hero.png"],"./assets\\mobile\\image-footer.jpg":[["image-footer.b654a21e.jpg","assets/mobile/image-footer.jpg"],"assets/mobile/image-footer.jpg"],"./assets\\desktop\\image-hero-left.png":[["image-hero-left.84ac6edc.png","assets/desktop/image-hero-left.png"],"assets/desktop/image-hero-left.png"],"./assets\\desktop\\image-hero-right.png":[["image-hero-right.86e0eda1.png","assets/desktop/image-hero-right.png"],"assets/desktop/image-hero-right.png"],"./assets\\desktop\\image-footer.jpg":[["image-footer.7b36653d.jpg","assets/desktop/image-footer.jpg"],"assets/desktop/image-footer.jpg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -217,7 +217,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62908" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "65058" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

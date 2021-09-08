@@ -9,7 +9,7 @@ p,
 h1,
 h2,
 h3 {
-  margin: 0;
+  margin: 0 auto;
 }
 button {
   height: 58px;
@@ -55,7 +55,6 @@ p {
   font-size: 1.6rem;
   line-height: 2.6rem;
   color: #87879d;
-  margin: 0;
 }
 
 /* ||Utilities */
@@ -78,22 +77,23 @@ p {
 
 /*|| heading */
 .hero-image {
-  display: inline-block;
-  margin-left: -20px;
   margin-top: 54px;
   margin-bottom: 48px;
-  width: 414px;
-  height: 153px;
+  height: 40.8vw;
   background: url("assets/tablet/image-hero.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 110%;
+  background-position: center;
+}
+.headline {
+  padding: 0 6.4%;
 }
 .headline h1 {
+  width: 80%;
   margin: 0 auto;
 }
 .headline > p {
   margin: 24px auto 32px;
-  width: 90%;
 }
 .headline-buttons {
   display: flex;
@@ -104,6 +104,9 @@ p {
   background: #4d96a9;
   margin-bottom: 16px;
 }
+.headline-buttons .download:hover {
+  background: #71c0d4;
+}
 .headline-buttons .download span {
   color: #8fe3f9;
 }
@@ -111,10 +114,13 @@ p {
   width: 139px;
   background: #855fb1;
 }
+.headline-buttons .what:hover {
+  background: #b18bdd;
+}
 
 /* ||Main */
 .main {
-  padding: 64px 24px;
+  padding: 64px 6.4%;
 }
 .pictures-gallery {
   padding: 64px 0;
@@ -129,21 +135,19 @@ p {
 }
 
 .benefits h2 {
-  margin-top: 24px;
-  margin-bottom: 32px;
+  margin: 24px auto 32px;
 }
 
 /* ||Footer */
 .footer {
   margin-top: 176px;
   background-image: url("assets/mobile/image-footer.jpg");
-  background-blend-mode: saturation;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
 .call-to-action {
-  padding: 92px 24px 72px;
+  padding: 92px 6.4% 72px;
   background-color: rgba(77, 150, 168, 0.9);
 }
 .call-to-action p,
@@ -156,6 +160,9 @@ p {
 .call-to-action .download {
   background: #855fb1;
 }
+.call-to-action .download:hover {
+  background: #b18bdd;
+}
 .call-to-action > p {
   margin: 24px auto 32px;
   width: 85%;
@@ -164,4 +171,125 @@ p {
   position: absolute;
   left: calc(50% - 28px);
   bottom: calc(100% - 28px);
+}
+
+@media screen and (min-width: 725px) {
+  .headline {
+    padding: 0 20.3%;
+  }
+  .headline h1 {
+    width: 60%;
+  }
+  .headline-buttons {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .headline-buttons .download {
+    margin: 0 16px;
+  }
+  .main {
+    padding: 64px 5.2%;
+  }
+  .pictures-gallery {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+  }
+  .benefits {
+    padding: 0 8%;
+  }
+  .benefits h2 {
+    width: 60%;
+  }
+  .call-to-action {
+    padding-left: 12.8%;
+    padding-right: 12.8%;
+  }
+  .call-to-action h2 {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .hero-image {
+    background: url("assets/desktop/image-hero-left.png"),
+      url("assets/desktop/image-hero-right.png");
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain;
+    background-position: center left -10%, center right -10%;
+  }
+  .benefits h2,
+  .call-to-action h2 {
+    width: 40%;
+  }
+  .headline > p,
+  .benefits p,
+  .call-to-action > p {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 1365px) {
+  p {
+    font-size: 1.8rem;
+  }
+  .hero-image {
+    height: 0;
+    margin: 0;
+    background-image: none;
+  }
+  .headline {
+    margin-top: 63px;
+    background: url("assets/desktop/image-hero-left.png"),
+      url("assets/desktop/image-hero-right.png");
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain;
+    background-position: center left -50px, center right -50px;
+    padding: 0 31.25%;
+  }
+  .headline h1 {
+    line-height: 6.4rem;
+    font-size: 6.4rem;
+    padding-top: 45px;
+    width: 80%;
+  }
+  .headline > p {
+    margin: 34px auto 32px;
+    width: 100%;
+  }
+  .main {
+    padding: 110px 165px 72px;
+  }
+  .pictures-gallery {
+    gap: 30px;
+  }
+  .benefits {
+    padding: 0 285px;
+  }
+  .benefits h2 {
+    width: 65%;
+  }
+  .benefits p {
+    width: 95%;
+  }
+  .footer {
+    background-image: url("assets/desktop/image-footer.jpg");
+  }
+  .call-to-action {
+    padding: 116px 165px 104px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+  }
+  .call-to-action p {
+    margin: 0;
+  }
+  .call-to-action > p {
+    padding-right: 8.4%;
+    padding-left: 11.4%;
+    width: 50%;
+  }
+  .call-to-action .button-call-to-action {
+    display: flex;
+    align-items: center;
+  }
 }
