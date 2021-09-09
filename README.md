@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/nicheweb-frontend-challenges/meet-landing-page.git)
+- Live Site URL: [Add live site URL here](https://musing-raman-ba7ea5.netlify.app/)
 
 ## My process
 
@@ -97,7 +97,7 @@ Looking for continue developing my skills, trying to consult less to get basic t
 ## Author
 
 - Website - [Norge Rojas Cerulia](I am improving my website it gonna get ready soon)
-- Frontend Mentor - [@niche-web](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@niche-web](https://www.frontendmentor.io/profile/niche-web)
 - Twitter - [@@Nani45670378](https://www.twitter.com/@Nani45670378)
 
 ## Acknowledgments
