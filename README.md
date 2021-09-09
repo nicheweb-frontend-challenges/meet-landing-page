@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/nicheweb-frontend-challenges/meet-landing-page.git)
-- Live Site URL: [Add live site URL here](https://musing-raman-ba7ea5.netlify.app/)
+- Solution URL: [solution URL here](https://github.com/nicheweb-frontend-challenges/meet-landing-page.git)
+- Live Site URL: [live site URL here](https://musing-raman-ba7ea5.netlify.app/)
 
 ## My process
 
